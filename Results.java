@@ -33,9 +33,12 @@ public class Student {
 
     }
    
-    void testAll()
- {
-     System.out.println("Hello");
-     return;
-}
+    void testAll() {
+       System.out.println("Hello");
+       return;
+    }
+
+    void addREmark(int mark) {
+       RE = mark;
+    }
 }
